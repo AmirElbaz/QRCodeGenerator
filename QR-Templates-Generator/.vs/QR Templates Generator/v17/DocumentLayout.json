@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|c:\\users\\m_sh8\\desktop\\final project\\qr-templates-generator\\qr templates generator\\controllers\\recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|solutionrelative:qr templates generator\\controllers\\recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|c:\\users\\m_sh8\\desktop\\final project\\qr-templates-generator\\qr templates generator\\dtos\\requestdtos\\recordcreationdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|solutionrelative:qr templates generator\\dtos\\requestdtos\\recordcreationdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|c:\\users\\m_sh8\\desktop\\final project\\qr-templates-generator\\qr templates generator\\datamodels\\entitypropclasses\\qrrecordprops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|solutionrelative:qr templates generator\\datamodels\\entitypropclasses\\qrrecordprops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|c:\\users\\m_sh8\\desktop\\final project\\qr-templates-generator\\qr templates generator\\migrations\\20250203191324_nullable-createdby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF6197-F26E-4EA4-9C1E-EC9599068F83}|QR Templates Generator\\SimplyFairDMS.csproj|solutionrelative:qr templates generator\\migrations\\20250203191324_nullable-createdby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecordCreationDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\DTOs\\RequestDTOs\\RecordCreationDTOs.cs",
+              "RelativeDocumentMoniker": "QR Templates Generator\\DTOs\\RequestDTOs\\RecordCreationDTOs.cs",
+              "ToolTip": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\DTOs\\RequestDTOs\\RecordCreationDTOs.cs",
+              "RelativeToolTip": "QR Templates Generator\\DTOs\\RequestDTOs\\RecordCreationDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:23:43.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250203191324_nullable-createdBy.cs",
+              "DocumentMoniker": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\Migrations\\20250203191324_nullable-createdBy.cs",
+              "RelativeDocumentMoniker": "QR Templates Generator\\Migrations\\20250203191324_nullable-createdBy.cs",
+              "ToolTip": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\Migrations\\20250203191324_nullable-createdBy.cs",
+              "RelativeToolTip": "QR Templates Generator\\Migrations\\20250203191324_nullable-createdBy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:13:24.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QRRecordProps.cs",
+              "DocumentMoniker": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\DataModels\\EntityPropClasses\\QRRecordProps.cs",
+              "RelativeDocumentMoniker": "QR Templates Generator\\DataModels\\EntityPropClasses\\QRRecordProps.cs",
+              "ToolTip": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\DataModels\\EntityPropClasses\\QRRecordProps.cs",
+              "RelativeToolTip": "QR Templates Generator\\DataModels\\EntityPropClasses\\QRRecordProps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:12:12.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecordController.cs",
+              "DocumentMoniker": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\Controllers\\RecordController.cs",
+              "RelativeDocumentMoniker": "QR Templates Generator\\Controllers\\RecordController.cs",
+              "ToolTip": "C:\\Users\\m_sh8\\Desktop\\final project\\QR-Templates-Generator\\QR Templates Generator\\Controllers\\RecordController.cs",
+              "RelativeToolTip": "QR Templates Generator\\Controllers\\RecordController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAqwJ8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:56:36.903Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

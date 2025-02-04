@@ -1,0 +1,431 @@
+[
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/Authenticate/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SimplyFairDMS.DTOs.RequestDTOs.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.AuthenticateController",
+    "Method": "Register",
+    "RelativePath": "api/Authenticate/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "QRGenerator.DTOs.RequestDTOs.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.AuthenticateController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Authenticate/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "QRGenerator.DTOs.RequestDTOs.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "GetAll",
+    "RelativePath": "api/QRTemplate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[QR_Templates_Generator.DTOs.QRTemplateeDTO, SimplyFairDMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "Create",
+    "RelativePath": "api/QRTemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addQRTemplateDTO",
+        "Type": "QR_Templates_Generator.DTOs.AddQRTemplateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "GetById",
+    "RelativePath": "api/QRTemplate/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "QR_Templates_Generator.DTOs.QRTemplateDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "Update",
+    "RelativePath": "api/QRTemplate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateQRTemplateDTO",
+        "Type": "QR_Templates_Generator.DTOs.UpdateQRTemplateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "Delete",
+    "RelativePath": "api/QRTemplate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "AddSection",
+    "RelativePath": "api/QRTemplate/{templateId}/sections",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "addSectionDTO",
+        "Type": "QR_Templates_Generator.DTOs.AddSectionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "UpdateSection",
+    "RelativePath": "api/QRTemplate/{templateId}/sections/{sectionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSectionDTO",
+        "Type": "QR_Templates_Generator.DTOs.UpdateSectionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "DeleteSection",
+    "RelativePath": "api/QRTemplate/{templateId}/sections/{sectionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "GetAllFields",
+    "RelativePath": "api/QRTemplate/{templateId}/sections/{sectionId}/fields",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[QR_Templates_Generator.DTOs.ResponseFieldDTO, SimplyFairDMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "AddField",
+    "RelativePath": "api/QRTemplate/{templateId}/sections/{sectionId}/fields",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "addFieldDTO",
+        "Type": "QR_Templates_Generator.DTOs.AddFieldDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "UpdateField",
+    "RelativePath": "api/QRTemplate/{templateId}/sections/{sectionId}/fields/{fieldId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "fieldId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFieldDTO",
+        "Type": "QR_Templates_Generator.DTOs.UpdateFieldDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.QRTemplateController",
+    "Method": "DeleteField",
+    "RelativePath": "api/QRTemplate/{templateId}/sections/{sectionId}/fields/{fieldId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "fieldId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.RecordController",
+    "Method": "GetRecords",
+    "RelativePath": "api/Record",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.RecordController",
+    "Method": "AddRecord",
+    "RelativePath": "api/Record",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "record",
+        "Type": "SimplyFairDMS.DTOs.RequestDTOs.QRRecordSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.RecordController",
+    "Method": "UpdateRecord",
+    "RelativePath": "api/Record",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newRecord",
+        "Type": "SimplyFairDMS.DTOs.RequestDTOs.QRRecordSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.RecordController",
+    "Method": "GetRecord",
+    "RelativePath": "api/Record/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.RecordController",
+    "Method": "DeleteRecord",
+    "RelativePath": "api/Record/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.TemplateSelectorController",
+    "Method": "GetTemplates",
+    "RelativePath": "api/TemplateSelector",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QR_Templates_Generator.Controllers.TemplateSelectorController",
+    "Method": "GetTemplate",
+    "RelativePath": "api/TemplateSelector/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
